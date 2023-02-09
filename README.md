@@ -35,13 +35,7 @@ more iterations, the more GA converges
 - `returnToOrigin`: A `boolean` == Should the solution include going back to origin?
 
 ## 💡 How Does It Work?
-### To understand how it works, we have to define a few things
-- `Individual`: an `array` of `integers` representing the order in which we visit all the
-  waypoints. For example, an `individual` of *[4,1,2,3]* means we visit waypoint 4 first,
-  followed by waypoint 1, followed by waypoint 2, and finally we visit waypoint 3
-- `Population`: an `array` of `individuals` with size `popSize`
-- TODO
-- TODO2: Add Comments
+### [Medium Article](https://medium.com/@realymyplus/introduction-to-genetic-algorithm-with-a-website-to-watch-it-solve-traveling-salesman-problem-live-a21105a3251a)
 
 ## ⚠️Known Defects
 - This project solely calculates the distance between 2 waypoints using **Haversine distance**.
