@@ -4,7 +4,7 @@
 The Traveling Salesman Problem statement is as follows:
   ```Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?```
 
-This problem is **NP-hard**, meaning it can not be solved within polynomial time. The reason is this:
+This problem is **NP-hard** because it is as hard as a NP-Complete problem Hamilton Cycle and doesn't have an efficient certifier (not necessarily need this to be NP-Hard though). It can not be solved within polynomial time. The reason is this:
 Suppose there are 19 cities in total, then I have 19 choices of which city should I travel first, 18 choices of which
 city should I travel second, ..., 1 choice of which city should I travel at last. In total, that is **19!** possibilities,
 out of the **19!** possibilities, I pick the one that has the shortest total distance.
