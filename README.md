@@ -52,10 +52,10 @@ more iterations, the more GA converges
   Genetic Algorithm may converge fairly quickly. This is why we want `mutChance` for mutation
   to add a little bit of randomness here
 - Currently the first waypoint added is the starting point, will add support for choosing starting point 🛠️
-<!-- 
+
 ## 🏆Acknowledgments && Disclaimers
 - This project's idea originates from `ITP 435-Professional C++` taught at the
   `University of Southern California` designed by [Sanjay Madhav](https://viterbi.usc.edu/directory/faculty/Madhav/Sanjay)
 - This is the first time I ever touched Javascript. I am a lifelong C++|Python|Java|PHP developer.
   So please bear with me if my Javascript coding style is a mess. Any suggestions are
-  more than welcome! -->
+  more than welcome!
