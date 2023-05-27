@@ -1,6 +1,6 @@
 ![Header](./cover.png)
 
-# 🌎 Travelnetics ([demo](https://travelnetics.z5.web.core.windows.net/))
+# 🌎 Travelnetics ([demo](https://travelnetics.azurewebsites.net/travelnetics/))
 The Traveling Salesman Problem statement is as follows:
   ```Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?```
 
@@ -13,7 +13,7 @@ If my computer can test **one billion** tours per second. It is going to take **
 to finish. Therefore, it is unfeasible to enumerate all possibilities. This project proposes a partial solution using
 `Genetic Algorithm` and calls `Google Maps API` to visualize. You can also utilize this project to plan your travel over 100+ places with ease.
 
-### You can see a demo [here](https://travelnetics.z5.web.core.windows.net/)
+### You can see a demo [here](https://travelnetics.azurewebsites.net/travelnetics/)
 (please note that I am using my personal Google Maps API key to host the demo. So I've set up restrictions of daily usage limit.
 If you see Google Map does not load correctly. It means the daily limit was exceeded. The settings for the demo site are
 `population` of 128, `numIterations` of 10000, `mutChance` of 0.2, and `returnToOrigin` set to true)
