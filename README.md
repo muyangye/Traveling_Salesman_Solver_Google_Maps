@@ -51,7 +51,7 @@ more iterations, the more GA converges
 - Genetic Algorithm **does not gurantee** to generate the **global optimal solution** since
   Genetic Algorithm may converge fairly quickly. This is why we want `mutChance` for mutation
   to add a little bit of randomness here
-- Currently the first waypoint added is the starting point, will add support for choosing starting point 🛠️
+- Currently the first waypoint added is the starting point which is a bit inflexible, will add support for choosing starting point 🛠️
 
 ## 🏆Acknowledgments && Disclaimers
 - This project's idea originates from `ITP 435-Professional C++` taught at the
