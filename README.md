@@ -24,7 +24,7 @@ If you see Google Map does not load correctly. It means the daily limit was exce
    to create one (❗❗❗ Note: Fees charged by Google may apply ❗❗❗)
 2. Open `index.html`, type an address in the search bar and Google Maps' Autocomplete API will
    show you a list of addresses. click on one will add a waypoint, the **first** waypoint added is the origin
-3. Slide down and click `Calculate Best Route!` at the bottom of `index.html`, enjoy!
+3. Click `Calculate Best Route!` at the bottom of `index.html`, enjoy!
 
 ## ⚙️ Customize Yourself
 ### Edit `config.js`, which contains the following fields:
