@@ -72,6 +72,11 @@
   #button-div {
     text-align: center;
   }
+
+  #return-to-origin-div {
+    text-align: center;
+    font-size: large;
+  }
   
   #goto-result {
     border: 2px solid coral;

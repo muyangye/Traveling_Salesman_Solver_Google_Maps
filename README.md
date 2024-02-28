@@ -1,6 +1,6 @@
 ![Header](./cover.png)
 
-# 🌎 Travelnetics ([demo](https://travelnetics.azurewebsites.net/travelnetics/))
+# 🌎 Travelnetics ([demo](https://muyangye.github.io/Traveling_Salesman_Solver_Google_Maps/))
 The Traveling Salesman Problem statement is as follows:
   ```Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?```
 
@@ -13,7 +13,7 @@ If my computer can test **one billion** tours per second. It is going to take **
 to finish. Therefore, it is unfeasible to enumerate all possibilities. This project proposes a partial solution using
 `Genetic Algorithm` and calls `Google Maps API` to visualize. You can also utilize this project to plan your travel over 100+ places with ease.
 
-### You can see a demo [here](https://travelnetics.azurewebsites.net/travelnetics/)
+### You can see a demo [here](https://muyangye.github.io/Traveling_Salesman_Solver_Google_Maps/)
 (please note that I am using my personal Google Maps API key to host the demo. So I've set up restrictions of daily usage limit.
 If you see Google Map does not load correctly. It means the daily limit was exceeded. The settings for the demo site are
 `population` of 128, `numIterations` of 10000, `mutChance` of 0.2, and `returnToOrigin` set to true)
@@ -24,6 +24,7 @@ If you see Google Map does not load correctly. It means the daily limit was exce
    to create one (❗❗❗ Note: Fees charged by Google may apply ❗❗❗)
 2. Open `index.html`, type an address in the search bar and Google Maps' Autocomplete API will
    show you a list of addresses. click on one will add a waypoint, the **first** waypoint added is the origin
+3. Check `Return To Origin?` or not, which means whether the solution should include going back to the origin
 3. Click `Calculate Best Route!` at the bottom of `index.html`, enjoy!
 
 ## ⚙️ Customize Yourself
@@ -32,7 +33,6 @@ If you see Google Map does not load correctly. It means the daily limit was exce
 - `numIterations`: A `number` > `0` == How many iterations the Genetic Algorithm should run. Generally the
 more iterations, the more GA converges
 - `mutChance`: A `float` between `0` and `1` == Mutation chance, as explained in `How Does It Work?`
-- `returnToOrigin`: A `boolean` == Should the solution include going back to origin?
 
 ## 💡 How Does It Work?
 ### [Medium Article](https://medium.com/@realymyplus/introduction-to-genetic-algorithm-with-a-website-to-watch-it-solve-traveling-salesman-problem-live-a21105a3251a)
