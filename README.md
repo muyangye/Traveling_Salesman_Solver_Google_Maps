@@ -16,7 +16,7 @@ to finish. Therefore, it is unfeasible to enumerate all possibilities. This proj
 ### You can see a demo [here](https://muyangye.github.io/Traveling_Salesman_Solver_Google_Maps/)
 (please note that I am using my personal Google Maps API key to host the demo. So I've set up restrictions of daily usage limit.
 If you see Google Map does not load correctly. It means the daily limit was exceeded. The settings for the demo site are
-`population` of 128, `numIterations` of 10000, `mutChance` of 0.2, and `returnToOrigin` set to true)
+`population` of 128, `numIterations` of 10000, and `mutChance` of 0.2)
 
 ## ▶️ Steps to Run Locally
 1. Replace `apiKey` attribute in `config.js` with your own Google Maps API Key. If you do not have
