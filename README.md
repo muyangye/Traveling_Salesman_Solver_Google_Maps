@@ -37,7 +37,7 @@ more iterations, the more GA converges
 ## 💡 How Does It Work?
 ### [Medium Article](https://medium.com/@realymyplus/introduction-to-genetic-algorithm-with-a-website-to-watch-it-solve-traveling-salesman-problem-live-a21105a3251a)
 
-## ⚠️Known Defects
+## ⚠️Notes
 - This project solely calculates the distance between 2 waypoints using **Haversine distance**.
   However, this approach has 2 major disadvantages:
   - **Shortest distance** is not always equal to **shortest time**
